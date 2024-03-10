@@ -1,0 +1,60 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Itim&display=swap" rel="stylesheet">
+    <script src="./ttt.js"></script>
+    <title>Tic-Tac-Toe</title>
+</head>
+<body>
+    <main class="background">
+        <section class="title">
+            <h1>Tic Tac Toe</h1>
+        </section>
+        <!-- Player names form -->
+        <section class="player-names">
+            <form id="nameForm">
+                <label for="playerX" style="color:white;">Player X:</label>
+                <input type="text" id="playerX" name="playerX" placeholder="Enter name for Player X">
+                <br>
+                <label for="playerO" style="color:white;">Player O:</label>
+                <input type="text" id="playerO" name="playerO" placeholder="Enter name for Player O">
+                <br>
+                <button type="submit">Start Game</button>
+            </form>
+        </section>
+        <!-- Game Display-->
+        </section>
+        <section class="display">
+            Player <span class="display-player playerX">X</span>'s turn
+        </section>
+        <section class="container">
+            <div class="tile"></div>
+            <div class="tile"></div>
+            <div class="tile"></div>
+            <div class="tile"></div>
+            <div class="tile"></div>
+            <div class="tile"></div>
+            <div class="tile"></div>
+            <div class="tile"></div>
+            <div class="tile"></div>
+        </section>
+        <section class="display announcer hide"></section>
+        <section class="controls">
+            <button id="reset">Reset</button>
+        </section>
+    </main>
+</body>
+</html>
+
+
+
+
+
+<!--
+#12181B
+#48076F
+-->
